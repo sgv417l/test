@@ -1,7 +1,0 @@
-点击start GO 后的显示页面需要启动 server.js 这个简陋的传递字符串的静态资源服务器 （用node.js起的）
-不然图片无法显示  
-
-
-页面引入了 jquery bootstrap swiper  
-
-第二页图片页 图片路径通过 ajax jsonp的形式取得图片路径 
