@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>串烧迷宫</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale= 1">
+<link rel="stylesheet" type="text/css" href="css/protor1-main.css">
+<link rel="stylesheet" type="text/css" href="css/content.css">
+<script type="text/javascript" src="Protor1.js" ></script>　
+</head>
+
+<body>
+ <div class="loginbar">    
+        <ul>
+        <li class=loginbar_part1><a href="#"> 设为首页 </a> <a href="#">收藏本站 </a></li>
+           
+          <li class=loginbar_part2> <a href="#"> <img src=images/2223.jpg /> 登陆 </a> <a href="#"> <img src=images/2224.jpg /> 注册 </a></li>
+        </ul>
+       
+       <div class="clear"></div>
+          </div>
+  <div class="picture"><img src=images/2226.jpg width=200px height=100px border=2 /></div>
+
+     <span class="search_area"> 
+         <select class="select">
+            <option value="帖子1">&nbsp;分类1</option>
+            <option value="帖子2">&nbsp;分类2</option>
+            <option value="帖子3">&nbsp;分类3</option>
+         </select>
+                 <form class="form"> <input class="int" type="text" > <input class="inb" type="submit" value=" ">   </form>
+         
+     </span>
+
+  <div class="menu_beckground">
+  <ul  id="menubar" class="menubar">
+  </ul>
+  </div>
+
+<div class="content_background">
+  <div class=content_top_warpper>
+    <div class=content_top>
+      <div class=slideshow>
+            <div id="slidecontent" class="slidecontent">
+            </div>
+            <a class="prev" onclick="backforward(-1)">＜</a>
+            <a class="next" onclick="backforward(1)">＞</a>
+            <div id="dotwarpper" class="dot_warpper">
+            </div>
+      </div>
+
+           <div class=tab_warpper> 
+               <ul id="tabtop" class="tab_top">
+
+               </ul>
+            <div id="tabcontent" class="tabcontent">
+
+            </div>
+
+          </div>
+        </div>
+     </div>
+
+    <div id="channelarea" class="channel_area">
+    </div>
+      
+      
+   <div class="sideArea"> 
+     <ul>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+     <li>  <img src=images/bl0.jpg width="100%" height="100%" /> <div class="listShadow"></div> </li>
+      <div class="clear"></div>
+     </ul>
+
+   </div>
+   
+  <!--================ 下面分页部分 =========================--> 
+
+     <div class="pagination_container">
+              <ul class="page_text"> 
+              <li>当前页数:</li>
+              <li id="currentPage">1</li> 
+              <li>&nbsp;&nbsp;&nbsp;总页数:</li>
+              <li id="allPage">20</li> 
+              </ul>
+         <ul class="pagination">
+               <li><a href="javascript:void(0);" id="prePage"  onclick="gettextP()">«</a></li>  
+               <li><a href="javascript:void(0);"  id="btn1" onclick="gettext1()">1</a></li>
+               <li><a href="javascript:void(0);" id="prePoint" >...</a></li>
+               <li><a href="javascript:void(0);" id="btn2" onclick="gettext2()"></a></li>
+               <li><a href="javascript:void(0);"  id="btn3" onclick="gettext3()"></a></li>
+               <li><a href="javascript:void(0);"  id="btn4" onclick="gettext4()"></a></li>
+               <li><a href="javascript:void(0);"  id="btn5" onclick="gettext5()"></a></li>
+               <li><a href="javascript:void(0);"  id="btn6" onclick="gettext6()"></a></li>
+               <li><a href="javascript:void(0);"  id="nextPoint" >...</a></li>
+               <li><a href="javascript:void(0);" id="btn7"  onclick="gettext7()"></a></li>
+     
+               <li><a href="javascript:void(0);"  id="nextPage" onclick="gettextN()">»</a></li>
+         </ul>
+
+     </div>
+     <div class="clear"></div>
+
+  </div>
+  </body>
+</html>
+

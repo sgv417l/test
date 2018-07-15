@@ -1,0 +1,11 @@
+﻿datap({
+  "result":"我是远程js带来的数据",
+  "slideDate": [
+{ "slideNumber":"1/1" , "imgSrc":"images/2227.jpg" , "slideText":"2227.jpg" },
+{ "slideNumber":"1/2" , "imgSrc":"images/2228.jpg" , "slideText":"2228.jpg" },
+{ "slideNumber":"1/3" , "imgSrc":"images/2229.jpg" , "slideText":"2229.jpg" },
+{ "slideNumber":"1/4" , "imgSrc":"images/22210.jpg" , "slideText":"22210.jpg" },
+{ "slideNumber":"1/5" , "imgSrc":"images/22211.jpg" , "slideText":"22211.jpg" }
+]
+});
+a();

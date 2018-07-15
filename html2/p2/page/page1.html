@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>串烧迷宫</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale= 1">
+   <link rel="stylesheet" type="text/css" href="../swiper/swiper-4.2.2.min.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="./page1.css">
+<script src="../js/jquery.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./page1.js"></script>
+
+</head>
+
+<body>
+	     <!-- 点击显示的页面 -->
+<div class="modle">
+  <span class="close modle-close">&times; </span>
+ <div class="imgwarpper">
+ 	<img src="" >
+  </div>
+</div>
+
+<!-- head和导航部分 -->
+<div class="head">
+<div class="logowarpper"><a href="#" class="logo">MyPicture</a></div>
+</div>
+<div class="navbar navbar-expand-lg navbar-dark" style="background-color: #1E3046;">
+  <a class="navbar-brand" href="../html2.html">返回</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- 下面的左边和右边部分 -->
+<div class="maincontent">
+	<!-- 左边 -->
+	<div class="left col-md-2">
+		<div class="list">
+			<ul class="list-group">
+		  <li class="list-group-item">Cras justo odio</li>
+		  <li class="list-group-item">Dapibus ac facilisis in</li>
+		  <li class="list-group-item">Morbi leo risus</li>
+		  <li class="list-group-item">Porta ac consectetur ac</li>
+		  <li class="list-group-item">Vestibulum at eros</li>
+		</ul>
+		</div>
+	</div>
+
+   <!-- 右边 -->
+	<div class="right col-md-10">
+		<div id="pm" class="p-modlewarpper">
+	     </div>
+	        <div class="paginationwarpper inline-flex">
+	          <span class="page-item" onclick="backforward(-1)"><a class="page-link" href="#">Previous</a></span>
+			  <ul id="pagnav" class="pagination">
+			  </ul>
+			  <span class="page-item" onclick="backforward(1)"><a class="page-link" href="#">Next</a></span>
+	        </div>
+	</div>
+
+
+<div class="clearfix"></div>
+</div>
+
+
+</body>
+</html>

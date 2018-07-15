@@ -1,0 +1,48 @@
+{ "ret": true,
+  "data": {
+    "swiperimg": [
+        { "id":"001",
+         "imgUrl":"./static/mock/s1.jpg",
+         "subImg":"./static/mock/subimg/ss1.jpg"
+        },
+                { "id":"002",
+         "imgUrl":"./static/mock/s2.jpg",
+         "subImg":"./static/mock/subimg/ss2.jpg"
+        },
+                { "id":"003",
+         "imgUrl":"./static/mock/s2.jpg",
+         "subImg":"./static/mock/subimg/ss3.jpg"
+        }
+    ],
+    "goodslist": [
+        { "id":"01",
+         "goodsimgUrl":"./static/mock/listp/listp1.jpg"
+        },
+        { "id":"02",
+         "goodsimgUrl":"./static/mock/listp/listp2.jpg"
+        },
+        { "id":"03",
+         "goodsimgUrl":"./static/mock/listp/listp3.jpg"
+        },
+        { "id":"04",
+         "goodsimgUrl":"./static/mock/listp/listp4.jpg"
+        },
+        { "id":"05",
+         "goodsimgUrl":"./static/mock/listp/listp5.jpg"
+        },
+        { "id":"06",
+         "goodsimgUrl":"./static/mock/listp/listp6.jpg"
+        },
+        { "id":"07",
+         "goodsimgUrl":"./static/mock/listp/listp7.jpg"
+        },
+        { "id":"08",
+         "goodsimgUrl":"./static/mock/listp/listp8.jpg"
+        },
+        { "id":"09",
+         "goodsimgUrl":"./static/mock/listp/listp9.jpg"
+        }
+    ]
+  }
+
+}
